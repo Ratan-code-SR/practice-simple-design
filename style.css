@@ -124,3 +124,22 @@ i.fa-solid.fa-check {
     color: green;
     padding: 0 12px 0 0;
 }
+
+/* planing-section */
+.plan {
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 40px;
+}
+
+.programming-skills{
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.programming-skills .skill img {
+    width: 71px;
+    height: 68px;
+}
