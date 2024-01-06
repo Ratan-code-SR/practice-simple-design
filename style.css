@@ -24,12 +24,12 @@ body {
 }
 
 .secondary-btn {
-    width: 160px;
-    height: 64px;
+    padding: 10px 27px;
     background-color: var(--white-color);
     border-radius: 5px;
     color: var(--secondary-color);
-
+    border: none;
+    font-size: 16px;
 }
 
 /*  */
@@ -132,14 +132,76 @@ i.fa-solid.fa-check {
     font-size: 40px;
 }
 
-.programming-skills{
- 
+.programming-skills {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
 }
+
 .programming-skills .skill img {
     width: 71px;
     height: 68px;
+}
+
+/* motivation- section */
+.motivation {
+    background-image: url(images/watch.png);
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+
+}
+
+.test {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    z-index: -1;
+}
+
+.motivation-contain {
+    padding: 14px 0 0 30px;
+}
+
+.motivation-contain h2 {
+    width: 400px;
+    font-size: 33px;
+    color: white;
+    font-weight: 700;
+}
+
+/* footer section */
+
+.footer-section {
+    background-color: var(--primary-color);
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.851);
+}
+
+.footer-icons li {
+    list-style: none;
+    display: inline-block;
+    width: 120px;
+    height: 45px;
+    margin-left: -41px;
+}
+
+.left-footer {
+    width: 485px;
+}
+
+input[type="email"] {
+    width: 231px;
+    padding: 12px 0 12px 5px;
+    margin-bottom: 14px;
+    display: block;
 }
